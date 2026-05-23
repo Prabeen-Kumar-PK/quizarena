@@ -1,6 +1,6 @@
 import { ImagePlus } from 'lucide-react'
 import { SectionHeading } from './SectionHeading'
-import featureImage1 from '../assets/featureImage1.jpg'
+import featureImage1 from '../assets/featureimage1.jpg'
 import featureImage2 from '../assets/featureImage2.jpg'
 
 
