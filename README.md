@@ -1,16 +1,49 @@
-# React + Vite
+# Quiz Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite quiz application built with modern frontend tools and interactive UI components.
 
-Currently, two official plugins are available:
+## What I used in this application
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React for building the UI and component structure
+- Vite for fast development server and optimized builds
+- CSS for styling the quiz interface and animations
+- GSAP for motion-driven transitions and entrance effects
+- Lenis for smooth scrolling behavior
+- Swiper.js for interactive sliders and carousel sections
+- Framer Motion for declarative UI animation and page-level transitions
+- Custom hooks for quiz state management and smooth reveal/scroll effects
+- Local quiz data to drive questions, options, scoring, and results
 
-## React Compiler
+## Key features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Multiple-choice quiz questions
+- Real-time score tracking
+- Question navigation and answer selection
+- Responsive layout for desktop and mobile
+- Clean and simple interface with reusable components
 
-## Expanding the ESLint configuration
+## Project structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `src/App.jsx` — main app layout and quiz page
+- `src/main.jsx` — Vite entry file
+- `src/index.css` — global styling
+- `src/components/` — UI components used in the quiz
+- `src/hooks/` — custom hooks for quiz logic and animations
+- `src/data/quizContent.js` — quiz questions and answers
+- `src/utils/quiz.js` — quiz helper functions
+
+## Run locally
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start development server:
+   ```bash
+   npm run dev
+   ```
+3. Open the app in the browser using the local Vite URL.
+
+## Notes
+
+This README describes the quizgame application and the main technologies used to build it. Customize it further with your own project details or deployment instructions.
